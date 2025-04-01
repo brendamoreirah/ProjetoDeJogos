@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Event_Plus</name>
+    </assembly>
+    <members>
+        <member name="M:Event_Plus.Controllers.UsuarioController.GetById(System.Guid)">
+            <summary>
+            EndPoint para Buscar um usuario
+            </summary>
+            <param name="id"> id do usuario buscado</param>
+            <returns>Usuario Buscado</returns>
+        </member>
+        <member name="T:Event_Plus.Migrations.Db">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Db.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Db.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Db.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Event_Plus.Migrations.Event_Plus">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Event_Plus.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Event_Plus.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Event_Plus.Migrations.Event_Plus.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Eventplus_api_senai.Controllers.TipoEventoController.Get">
+            <summary>
+            Endpoint para listar tipos de eventos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eventplus_api_senai.Controllers.TipoEventoController.Post(Event_Plus.Domains.TipoEvento)">
+            <summary>
+            Endpoint para cadastras novos tipos de eventos
+            </summary>
+            <param name="novoTipoEvento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eventplus_api_senai.Controllers.TipoEventoController.GetById(System.Guid)">
+            <summary>
+            Endpoint para buscar tipos de eventos por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Eventplus_api_senai.Controllers.TipoEventoController.Delete(System.Guid)">
+            <summary>
+            Endpoint para deletar tipos de eventos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
